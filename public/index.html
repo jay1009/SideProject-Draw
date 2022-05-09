@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"></meta>
+        <meta name="description" content="Jay的抽獎系統" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./stylesheets/style.css" />
+        <title>線上抽獎系統</title>
+    </head>
+    <body style="background-color:rgba(235, 227, 227, 0.534)">
+        <div id="header">
+            <h1>線上抽獎系統</h1>
+        </div>
+        <div id="b1">
+            <h2>主題名稱</h2>
+            <input type="text" id="title" class="word" placeholder="請輸入本次抽獎的主題名稱"/>
+        </div>
+        <div id="b2">
+            <h2>獎項</h2>
+            <textarea id="award" class="word block_size" placeholder="說明:每一行代表一種獎項，可輸入多種獎項，數量請用,進行區分，未輸入獎品數量則預設為1，可手動輸入或是載入.txt文件。&#10;例如:&#10;百萬名車,5&#10;5000元,3&#10;100元"></textarea>
+            <input id="award_file" class="btn_word" name="award_file" type="file"/>
+        </div>
+        <div claas="space"></div>
+        <div id="b3">
+            <h2>候選者名單</h2>
+            <textarea id="candidate" class="word block_size" placeholder="說明:每一行代表一個人，可手動輸入或是載入.txt文件。&#10;例如:&#10;王大明&#10;陳小美&#10;林佑佑"></textarea>
+            <input id="candidate_file" class="btn_word" name="candidate_file" type="file"/>    
+        </div>
+        <div id="b4">
+            <h2>得獎者名單</h2>
+            <textarea id="winner" class="word block_size"></textarea>
+        </div>
+        <div claas="space"></div>
+        <div id="b5">
+            <button id="draw" class="btn_word" type="button">抽獎</button>
+            <button id="all_winner" class="btn_word" type="button">查詢所有中獎名單</button>
+            <button id="download" class="btn_word" type="button">下載</button>
+            <button id="erase" class="btn_word" type="button">清除所有</button>
+        </div>
+        <script src="./javascripts/script.js"></script>
+    </body>
+</html>
