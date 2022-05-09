@@ -1,9 +1,9 @@
 # SideProject-LuckyDraw
 
 # 操作步驟:
-1. 打開終端機，輸入 git clone https://github.com/jay1009/SideProject-Draw.git
+1. 打開終端機，輸入 git clone https://github.com/jay1009/SideProject-LuckyDraw.git
 2. 打開MongoDB Server
-3. cd SideProject-Draw
+3. cd SideProject-LuckyDraw
 4. npm install
 5. npm start
 6. 打開chrome網頁輸入網址"127.0.0.1:3000"或"localhost:3000"，即可執行
