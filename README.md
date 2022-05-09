@@ -1,4 +1,4 @@
-# SideProject-Draw
+# SideProject-LuckyDraw
 
 # 操作步驟:
 1. 打開終端機，輸入 git clone https://github.com/jay1009/SideProject-Draw.git
